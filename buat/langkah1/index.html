@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Daftar</title>
+    <style>
+      body {
+        background-color: rgb(40, 40, 40);
+      }
+
+      h2,
+      p {
+        color: white;
+        margin: 30px auto;
+      }
+
+      .contact-form {
+        display: flex;
+      }
+
+      .form-control {
+        border: none;
+        border-radius: 10px;
+        margin: 10px;
+        width: 150px;
+        height: 40px;
+      }
+
+      .btn {
+        border: none;
+        background-color: blue;
+        width: 370px;
+        height: 40px;
+        border-radius: 30px;
+      }
+
+      .btn a {
+        color: white;
+      }
+
+      footer {
+        text-align: center;
+        margin: 40px auto;
+      }
+
+      footer a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Siapa nama Anda ?</h2>
+    <p>Masukkan nama yang Anda gunakan</p>
+    <form name="contact-form" class="contact-form">
+      <div class="contact mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          aria-describedby="name"
+          name="nama"
+          placeholder=" Nama depan"
+        />
+      </div>
+      <div class="contact mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          aria-describedby="name"
+          name="nama"
+          placeholder=" Nama belakang"
+        />
+      </div>
+    </form>
+    <br />
+    <button type="submit" name="submit" value="yes" class="btn mb-5 btn-kirim">
+      <a href="/buat/langkah2/index.html">Kirim</a>
+    </button>
+
+    <footer>
+      <a href="/index.html">Sudah memilikiakun ?</a>
+    </footer>
+  </body>
+</html>
